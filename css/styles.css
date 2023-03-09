@@ -71,6 +71,9 @@ header {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--text-color);
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-logo-accent {
@@ -96,6 +99,9 @@ header {
     color: var(--text-color);
     font-weight: 500;
     line-height: 1.33;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-navigation-link:hover,
@@ -123,6 +129,9 @@ header {
     color: var(--text-color);
     font-style: normal;
     line-height: 1.53;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-address-link:hover,
@@ -133,7 +142,6 @@ header {
 .header-container {
     display: flex;
     align-items: center;
-    height: 72px;
     
 }
 
@@ -146,13 +154,9 @@ header {
 
 .hero-section {
     background-color: var(--text-color);
-}
-
-.hero-container {
     padding-top: 188px;
     padding-bottom: 188px;
 }
-
 
 .hero-title {
     margin-bottom: 48px;
@@ -162,14 +166,15 @@ header {
     line-height: 1.07;
     text-align: center;
     color: var(--main-white-color);
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-button {
     padding: 16px 32px;
     margin-left: auto;
     margin-right: auto;
-
-    
 
     background: var(--accent-color);
     color: white;
@@ -195,7 +200,7 @@ header {
 
 /* Our adventages */
 
-.adventages-container {
+.adventages-section {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -225,7 +230,7 @@ header {
 
 /* What are we doing */
 
-.doing-container {
+.doing-section {
     padding-bottom: 120px;
 }
 
@@ -256,9 +261,6 @@ header {
 
 .section-team {
     background-color: var(--second-bg-color);
-}
-
-.team-container {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -276,15 +278,15 @@ header {
     flex-basis: 264px;
 }
 
-.team-list-card {
-    background-color: var(--main-white-color);
-    height: 380px;
-    border-radius: 0 0 4px 4px;
+.team-item-img {
+    display: block;
 }
 
 .team-text {
-    margin-bottom: 32px;
-    margin-top: 32px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    background-color: var(--main-white-color);
+    border-radius: 0 0 4px 4px;
 }
 
 .team-subtitle {
@@ -305,9 +307,6 @@ header {
 
 .footer {
     background-color: var(--text-color);
-}
-
-.footer-container {
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -338,7 +337,7 @@ header {
 
 /* PORTFOLIO PAGE */
 
-.work-list-container {
+.work-list-section {
     padding-top: 96px;
     padding-bottom: 120px;
 }
@@ -382,12 +381,6 @@ header {
 
     padding: 0;
     margin: 0;
-}
-
-.work-card {
-    background-color: var(--main-white-color);
-    height: 420px;
-    
 }
 
 .work-item {
